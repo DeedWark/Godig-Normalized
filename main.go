@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"src/dns"
+	"github.com/DeedWark/Godig-Normalized"
 )
 
 func main() {
