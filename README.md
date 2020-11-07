@@ -6,7 +6,7 @@ Domain resolver (DNS)
 You can build this program
 - Linux
 ```bash
-go build -o godig godig.go
+go build -o godig
 #and execute the built program
 ./godig domain.com
 ```
@@ -20,15 +20,10 @@ godig domain.com
 
 - Windows
 ```bash
-env GOOS=windows GOARCH=amd64 go build -o godig.exe godig.go
+env GOOS=windows GOARCH=amd64 go build -o godig.exe
 .\godig.exe domain.com
 ```
 
-
-You can now launch this program (without build)
-```bash
-go run godig.go domain.com
-```
 
 ## Usage
 
