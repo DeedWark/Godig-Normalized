@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"tuto.go/src/dns"
+	"src/dns"
 )
 
 func main() {
