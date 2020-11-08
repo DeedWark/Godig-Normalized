@@ -4,8 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
-
-	"github.com/DeedWark/Godig-Normalized"
+	"github.com/DeedWark/Godig-Normalized/src/dns"
 )
 
 func main() {
